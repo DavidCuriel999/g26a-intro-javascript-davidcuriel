@@ -1,0 +1,196 @@
+WEB API
+addEventListerner
+localstorage
+fetch
+setimeout
+
+
+NODE
+js => servidor (terminal)
+
+
+FRONT END (JS en el cliente)
+JS + WEB API
+
+
+BACK END (JS por medio de node en el servidor)
+JS + NODE
+
+5 conceptos indispensables de APIS
+request
+response
+url
+verbo/method HTTP (GET, POST, PUT, PATCH, DELETE)
+status (200 OK, 404 NOT FOUND, 500 ERROR SERVIDOR)
+
+
+SEMANTIC VERSION
+
+colors: 1.0.0
+color: 2.0.0
+=
+
+
+JUEGO HALO
+
+DEPENDENCIAS
+armas 1.0.0
+blender 1.0.0
+
+DESARROLLANDO
+Partidas
+
+1.0.0
+    DEPENDENCIAS
+    armas ^1.0.0
+    blender ^1.x.y
+
+1.0.0
+1.0.1 // fix de las armas y grandas
+1.0.2 // fix de los colores
+1.1.0 // agregar arcos como arma
+2.0.0 // reinventar el uso de armas para tener una jugabilidad mas agradable
+2.0.1
+2.1.0
+
+
+DUDAS DE SUS TAREAS?
+REPASO PRACTICO
+
+Postman
+App.js
+
+Node
+npm vs yarn
+
+Java
+maven vs gradlew
+
+script => JS
+link => CSS
+js puro => require
+
+
+OPERACIONES DEPENDIENTES
+
+JAVA y Python
+1. Controlan automaticamente el orden.
+2. El codigo bloqueante.
+3. Threads
+
+JavaScript
+1. Nativamente no bloquea las llamadas, las ejecuta en segunda plano
+2. Si necesitamos controlar el orden ocupamos callbacks, promises o async await.
+3. No existen los thread pero el event loop cumple una funcion parecida.
+
+// const randomResponse = statusArray[Math.floor(Math.random() * statusArray.length)];
+
+
+
+
+REQUEST
+Peticion o solicitud de informacion
+
+RESPONSE
+Un conjunto de datos que entrega el servidor al cliente + metada + headers (content-type/myme type)
+
+CLIENTE
+Solicita la informacion 
+    Ejemplos:   archivo.js, navegador, computadora
+
+SERVIDOR
+Es aquel que responde informacion o regresa la response
+    Ejemplos: Servidor de node, CPU, aplicacion live server
+
+API
+Caja que da informacion.
+Intermediario entre el front end y el back end o entre un back end y back end para solventar el problema de no tener un estandar.
+
+CONTRATO
+Reglas para consumir una API y las pone el dueño del back end.
+    Que conforma ese contrato?
+        URL 
+        METHOD / VERB http 
+        Payload/Body (la info que se envia POST)
+        Parametros (seleccion o filtros)
+            1. request params videos/2/music => sirven para seleccionar
+            2. query params videos?pageSize=10&paginationKey=2 => sirven para filtrar la info
+        Headers (autenticacion)
+
+ENDPOINTS / SERVICIOS 
+Son urls que la API pone a disposicion (con su propio verbo) para que el front end los consuma
+localhost:5501/create-user
+localhost:5501/get-users
+
+PORT
+Es una entrada a un servicio de la compu
+Listado de puertos tcp/ip
+
+REST  
+Buenas practicas de diseño de un API
+
+API REST  
+Es un api construida basandose en las buenas practicas de RESTful
+
+URL
+https://www.google.com/curso-js 
+PROTOCOLO://dominio/path
+
+
+VERBOS HTTP  
+GET
+POST - CREATE
+PUT (modificar todo) / PATCH (modificar parcialmente)
+DELETE 
+
+CRUD 
+create - post
+read - get
+update - put/patch 
+delete - delete
+
+NODE
+Emulador de JS para hacer back end / API
+
+scaffold
+
+
+PROYECTO ExpressJS
+
+CLASE
+
+Video
+name
+author
+
+const newVideo = new Video('Kilometros', 'Los caligaris');
+
+PARTE 1
+API - POST / GET
+Consumir desde navegador y desde postman
+
+PARTE 2
+PUT, PATCH, DELETE
+Separar el codigo (Crear el scaffold)
+Conectarnos a una BD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
