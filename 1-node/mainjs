@@ -1,0 +1,61 @@
+// javascript
+
+total = 35;
+/*
+//numericos
+int -> enteros
+float -> punto flotante sencillo
+bouble -> punto flotante complejo
+boleano 1 0 true o false
+
+caracter "A"
+cadena "asasas"
+/*
+Arreglos variable posisiones (ARRAYS)
+
+totales = [121, 334, 5565, 7676]
+mascotas = ["pepe", "carlota"]
+miObjeto = { "llave": "valor" }
+
+// xml 
+// REST API backend
+
+//Tipo de dato JASON ARRAY(Tipo de dato No SQL)
+persona = {
+    "nombre": "Jose",
+    "id": "987329876734",
+    "tel": "5564738269",
+    "direccion": {
+        "calle": "laesquina",
+        "numero": "232"
+    },
+}
+
+
+total = "treinta y cinco"
+
+console.log("-->", total) //funcion del navegador para sacar informacion en la consola
+/*
+// permite imprimir en la consola del navegador//
+//navegador interprete javascript standard, ES6 2020?
+//Las variables pudeenser volatiles o no
+//Las variables pueden ser GLOBAL O LOCAL
+*/
+var total = 35.94789;
+let otroVarialble = 2234;
+const TITULO = "Mi clase de programacion"
+TITULO = "fjgnsdjk"
+let titulo = "javascript"
+console.log(tiutlo)
+//TOTEANDO???
+//Estructuras de control
+
+document.getElementById("salida").innerHTML = "X es mayor que y"
+
+
+if(condicion"es cierto"){
+    "ejecuta esto"
+}
+else{
+    "si es falso ejecuta esto"
+}
